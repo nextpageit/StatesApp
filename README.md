@@ -10,7 +10,9 @@ The States App allows to do :
 6. Logout.
 
 # Installation
-Installation requires node.js on your computer
+Run the server app from the original repo at https://github.com/xybio/frontend-test
+
+To run this app, clone the repo to your system and run.
 
 npm install
 
