@@ -3,8 +3,8 @@
 
 The States App allows to do : 
 1. Login.
-2. State List.
-3. Get State By Abbreviations.
+2. Get State List.
+3. Get State List By State-Abbreviations.
 4. Add Guest Book Messages.
 5. Get Guest Book Messages.
 6. Logout.
