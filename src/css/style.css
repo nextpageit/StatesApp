@@ -42,9 +42,9 @@
        width:70px!Important; 
       /* display: none!Important; */
   }
-  .Select-clear-zone
+  .Select-clear
   {
-    /* display: none!Important; */
+    display: none!Important; 
   }
   .Select.Select--single.formElement.is-clearable.is-searchable
   {

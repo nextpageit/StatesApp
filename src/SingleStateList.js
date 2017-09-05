@@ -115,40 +115,6 @@ class SingleStateList extends Component {
                   <Col lg={2}>
                     <p>{this.state.singlestatedata.dst}</p>
                   </Col>
-
-                  {/* <Col lg={2}>
-                    <p>{this.state.singlestatedata.name}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.abbreviation}</p>
-                  </Col>
-                  <Col lg={2}>
-                    <p>{this.state.singlestatedata.capital}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.population}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.population}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.population}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.population}</p>
-                  </Col>
-                  <Col lg={1}>
-                    <p>{this.state.singlestatedata.population}</p>
-                  </Col>
-                  <Col lg={2}>
-                    <p>{this.state.singlestatedata.dst}</p>
-                  </Col> */}
-                  {/* <Col>
-                     <p>{this.state.singlestatedata.most-populous-city}</p> 
-                    </Col> */}
-                  {/* <Col>
-                      <p>{stateList.square - miles}</p>
-                    </Col> */}
                 </span>
               }
             </Row>
@@ -161,7 +127,7 @@ class SingleStateList extends Component {
 }
 //export default SingleStateList;
 export default reduxForm({
-  form: 'login', //                 <------ same form name
+  form: 'SingleStateList', //                 <------ same form name
   destroyOnUnmount: false, //        <------ preserve form data
   forceUnregisterOnUnmount: true
 })(SingleStateList);

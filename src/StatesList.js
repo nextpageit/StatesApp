@@ -19,7 +19,6 @@ class StateList extends Component {
       .then(function (response) {
         return response.json();
       }).then(function (data) {
-        //alert(data.most-populous-city);
         _this.setState({ sectiondata: data });
       }).catch(function () {
         // reject(err);
