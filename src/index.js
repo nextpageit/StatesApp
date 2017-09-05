@@ -16,9 +16,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const rootEl = document.getElementById('root');
 
+// Routing Section
+
 ReactDOM.render(
     <Provider store={store}>
-
         <Router>
             <div>
                 <Route exact path='/' component={Login} />

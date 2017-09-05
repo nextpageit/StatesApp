@@ -14,14 +14,12 @@ class SingleStateList extends Component {
     this.state = {
       singlestatedata: {}
     };
-    /* Set State Modal Poups (Collect Money & Add Expense)*/
+    /* Set State For Function logChange() */
     this.logChange = this.logChange.bind(this);
   }
 
-  logChange(val) {
-    //alert(JSON.stringify(val));    
-    let url = `${BASE_URL}states/` + val;
-    //alert(url);
+  logChange(val) {       
+    let url = `${BASE_URL}states/` + val;    
     fetch(url, { method: 'GET' })
       .then(response => response.json())
       .then(json => {
@@ -32,7 +30,6 @@ class SingleStateList extends Component {
         return null;
       });
   }
-
   render() {
     const RenderSelectAsync = ({
       input,
@@ -81,13 +78,12 @@ class SingleStateList extends Component {
       <section>
         <h4>State List By Abbrevation : </h4>
         <Field component={RenderSelectAsync} name="ddlStateAbbrev" className='formElement' loadOptions={getOptions} />
-        <Grid fluid>
-          {/* Section 1 Start */}
+        {/* Get Single State Lists*/}
+        <Grid fluid>          
           <div className="statelist">
             <Row>
               {
                 <span>
-
                   <Col lg={1}>
                     <p>{this.state.singlestatedata.name}</p>
                   </Col>
@@ -118,16 +114,17 @@ class SingleStateList extends Component {
                 </span>
               }
             </Row>
-            {/* Section 1 End */}
+            
           </div>
         </Grid>
+        {/* Single State Lists End */}
       </section >
     );
   }
 }
 //export default SingleStateList;
 export default reduxForm({
-  form: 'SingleStateList', //                 <------ same form name
+  form: 'SingleStateList', //        <------ same form name
   destroyOnUnmount: false, //        <------ preserve form data
   forceUnregisterOnUnmount: true
 })(SingleStateList);

@@ -60,26 +60,7 @@ class AddGuestBook extends Component {
         <br />
         <button type="submit">Add Message</button>        
       </form>
-      // <div>
-      //   <MuiThemeProvider>
-      //     <div>
-
-      //       <TextField
-      //         hintText="Enter your Phone"
-      //         floatingLabelText="Phone"
-      //         onChange={(event, newValue) => this.setState({ phone: newValue })}
-      //       />
-      //       <br />
-      //       <TextField
-      //         hintText="Enter your Messsage"
-      //         floatingLabelText="Messsage"
-      //         onChange={(event, newValue) => this.setState({ message: newValue })}
-      //       />
-      //       <br />
-      //       <RaisedButton label="Add Message" primary={true} style={style} onClick={(event) => this.onSubmit(event)} />
-      //     </div>
-      //   </MuiThemeProvider>
-      // </div>
+     
     );
   }
 }
