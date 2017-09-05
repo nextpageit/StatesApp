@@ -1,0 +1,73 @@
+.statelist {
+    margin: 40px;
+}
+.statelist .col-lg-2{border-bottom: 1px solid #ccc;}  
+.statelist .col-lg-1{border-bottom: 1px solid #ccc;} 
+.statelist p {margin: 8px 0;}
+
+
+#login-form {
+    width: 28%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#add-msg-guestform {
+    width: 28%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Select-control {
+    background-color: #fff;
+    
+    
+    color: #333;
+    cursor: default;
+   
+    width: 100%;
+    /* padding: 38px 0px 0px 40px; */
+  }
+  .Select-control:hover {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .Select-menu-outer
+  {
+      height:0px;
+  }
+  .Select-input input
+  {
+       width:70px!Important; 
+      /* display: none!Important; */
+  }
+  .Select-clear-zone
+  {
+    /* display: none!Important; */
+  }
+  .Select.Select--single.formElement.is-clearable.is-searchable
+  {
+      margin-top:50px;
+margin-left:70px;
+
+  }
+  .sidebar-nav li {
+    float: left;
+    padding: 0 0px 0 15px;
+    list-style: none;
+    /* color: #000; */
+}
+.sidebar-nav li a {
+    color: #fff;
+  
+}
+.sidebar-nav li a:hover {
+    text-decoration: none;
+}
+.sidebar-nav {
+    padding: 16px 0;
+    width: 100%;
+    background-color: #000;
+    display: inline-block;
+}
