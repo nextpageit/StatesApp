@@ -4,8 +4,6 @@ import validate from './validation/validate';
 import renderfieldGroup from './validation/renderfieldGroup';
 import {BASE_URL} from './common';
 
-
-
 class AddGuestBook extends Component {
   constructor(props) {
     super(props);

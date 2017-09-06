@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDom from 'react-dom';
-import { Grid, Row, Col } from 'react-bootstrap';
 import { BASE_URL } from './common';
-import $ from "jquery";
+import Row from 'react-bootstrap/lib/Row';
+
 class Header extends React.Component {
   constructor(props) {
     super(props)

@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 import { Field, reduxForm } from 'redux-form';
 import { BASE_URL } from './common';
-import $ from "jquery";
 
 var axios = require('axios');
 class SingleStateList extends Component {

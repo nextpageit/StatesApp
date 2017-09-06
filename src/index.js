@@ -10,10 +10,8 @@ import StatesList from './StatesList';
 import SingleStateList from './SingleStateList';
 import AddGuestBook from './AddGuestBook';
 import GuestBookMessages from './GuestBookMessages';
-import Header from './Header';
-import {BASE_URL} from './common';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
+import Header from './Header';
 const rootEl = document.getElementById('root');
 
 // Routing Section

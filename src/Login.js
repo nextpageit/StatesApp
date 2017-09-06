@@ -3,8 +3,6 @@ import { Field, reduxForm } from 'redux-form';
 import validate from './validation/validate';
 import renderfieldGroup from './validation/renderfieldGroup';
 import { BASE_URL } from './common';
-import $ from "jquery";
-
 class Login extends Component {
   constructor(props) {
     super(props);
